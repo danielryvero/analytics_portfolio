@@ -11,7 +11,7 @@
 		$wrapper = $('#wrapper'),
 		$header = $('#header'),
 		$nav = $('#nav'),
-		$main = $('#main'),
+		$main = $('#container_main'),
 		$navPanelToggle, $navPanel, $navPanelInner;
 
 	// Breakpoints.

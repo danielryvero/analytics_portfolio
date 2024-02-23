@@ -72,6 +72,20 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+.class-proj{
+	/* opacity: 1; */
+	display: block;
+  }
+  .class-curr{
+	/* opacity: 0; */
+	display: none;
+  }
+  .class-arch{
+	/* opacity: 0; */
+	display: none;
+  }
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3450,6 +3464,8 @@ input, select, textarea {
 				visibility: hidden;
 			}
 
+		
+
 		#intro.hidden {
 			pointer-events: none;
 			-moz-transform: translateY(2rem);
@@ -3795,7 +3811,7 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
+	.class-new {
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
@@ -3804,41 +3820,41 @@ input, select, textarea {
 		z-index: 2;
 	}
 
-		#main > * {
+		.class-new > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #eeeeee;
 			margin: 0;
 		}
 
-			#main > *:first-child {
+			.class-new > *:first-child {
 				border-top: 0;
 			}
 
-		#main > footer {
+		.class-new > footer {
 			text-align: center;
 		}
 
-		#main > .post {
+		.class-new > .post {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
-			#main > .post header.major > .date {
+			.class-new > .post header.major > .date {
 				margin-top: -2rem;
 			}
 
-			#main > .post header.major > h1, #main > .post header.major h2 {
+			.class-new > .post header.major > h1, .class-new > .post header.major h2 {
 				font-size: 4rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
 
-			#main > .post.featured {
+			.class-new > .post.featured {
 				text-align: center;
 			}
 
 			@media screen and (max-width: 1280px) {
 
-				#main > .post {
+				.class-new > .post {
 					padding: 6rem 4rem 4rem 4rem ;
 				}
 
@@ -3846,16 +3862,16 @@ input, select, textarea {
 
 			@media screen and (max-width: 736px) {
 
-				#main > .post {
+				.class-new > .post {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
 
-					#main > .post header.major > .date {
+					.class-new > .post header.major > .date {
 						margin-top: -1rem;
 						margin-bottom: 2rem;
 					}
 
-					#main > .post header.major > h1, #main > .post header.major h2 {
+					.class-new > .post header.major > h1, .class-new > .post header.major h2 {
 						font-size: 2.5rem;
 						line-height: 1.2;
 						margin: 0 0 1.5rem 0;
@@ -3863,7 +3879,7 @@ input, select, textarea {
 
 			}
 
-		#main > .posts {
+		.class-new > .posts {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3881,7 +3897,7 @@ input, select, textarea {
 			padding: 0;
 		}
 
-			#main > .posts > * {
+			.class-new > .posts > * {
 				-moz-flex-shrink: 1;
 				-webkit-flex-shrink: 1;
 				-ms-flex-shrink: 1;
@@ -3892,16 +3908,16 @@ input, select, textarea {
 				flex-grow: 0;
 			}
 
-			#main > .posts > * {
+			.class-new > .posts > * {
 				width: 50%;
 			}
 
-			#main > .posts > * {
+			.class-new > .posts > * {
 				padding: 4rem;
 				width: 50%;
 			}
 
-			#main > .posts > article {
+			.class-new > .posts > article {
 				border-color: #eeeeee;
 				border-left-width: 2px;
 				border-style: solid;
@@ -3909,25 +3925,25 @@ input, select, textarea {
 				text-align: center;
 			}
 
-				#main > .posts > article > :last-child {
+				.class-new > .posts > article > :last-child {
 					margin-bottom: 0;
 				}
 
-				#main > .posts > article:nth-child(2n - 1) {
+				.class-new > .posts > article:nth-child(2n - 1) {
 					border-left-width: 0;
 				}
 
-				#main > .posts > article:nth-child(-n + 2) {
+				.class-new > .posts > article:nth-child(-n + 2) {
 					border-top-width: 0;
 				}
 
 			@media screen and (max-width: 980px) {
 
-				#main > .posts > * {
+				.class-new > .posts > * {
 					width: 50%;
 				}
 
-				#main > .posts > * {
+				.class-new > .posts > * {
 					padding: 2.5rem;
 					width: 50%;
 				}
@@ -3936,32 +3952,32 @@ input, select, textarea {
 
 			@media screen and (max-width: 736px) {
 
-				#main > .posts > * {
+				.class-new > .posts > * {
 					width: 100%;
 				}
 
-				#main > .posts > * {
+				.class-new > .posts > * {
 					padding: 2rem;
 					width: 100%;
 				}
 
-				#main > .posts > article:nth-child(2n - 1) {
+				.class-new > .posts > article:nth-child(2n - 1) {
 					border-left-width: 2px;
 				}
 
-				#main > .posts > article:nth-child(-n + 2) {
+				.class-new > .posts > article:nth-child(-n + 2) {
 					border-top-width: 2px;
 				}
 
-				#main > .posts > article:nth-child(n) {
+				.class-new > .posts > article:nth-child(n) {
 					border-left-width: 0;
 				}
 
-				#main > .posts > article:nth-child(-n + 1) {
+				.class-new > .posts > article:nth-child(-n + 1) {
 					border-top-width: 0;
 				}
 
-				#main > .posts > article .image {
+				.class-new > .posts > article .image {
 					max-width: 25rem;
 					margin-left: auto;
 					margin-right: auto;
@@ -3971,7 +3987,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#main > * {
+			.class-new > * {
 				padding: 2rem 2rem 0.1rem 2rem ;
 			}
 
@@ -3979,7 +3995,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#main {
+			.class-new {
 				width: 100%;
 			}
 
