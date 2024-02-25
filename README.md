@@ -1,4 +1,4 @@
-# <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> <i class="fas fa-github">danielryveroanalytics.github.io</i>
+# danielryveroanalytics.github.io
 
 <i class="fab fa-github">This is my personal [Data Analytics Porfolio](https://danielryvero.github.io/danielryveroanalytics.github.io/).</i> 
 I will be updating it with my most recent work in this field. 
