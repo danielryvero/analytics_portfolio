@@ -3800,7 +3800,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			margin-bottom: 0;
 		}
-			/* el mierdero */
+		/* Mobile view */
 		@media screen and (max-width: 980px) {
 			#nav {
 				color: #ffffff;
@@ -3825,18 +3825,6 @@ input, select, textarea {
 				border-top-color: #ffffff;
 			}
 	
-			/* #nav ul.icons li a.icon:hover:before {
-				color: #18bfef;
-			} */
-	
-			/* #nav ul.icons.alt li .icon:before {
-				box-shadow: inset 0 0 0 2px #ffffff;
-			}
-	
-			#nav ul.icons.alt li a.icon:hover:before {
-				box-shadow: inset 0 0 0 2px #18bfef;
-			}
-	 */
 			#nav input, #nav select, #nav textarea {
 				color: #ffffff;
 			}
@@ -3917,11 +3905,8 @@ input, select, textarea {
 				
 					#nav ul.icons {
 						display: none;
-						/* flex-direction: column; /* Stack items vertically */
 					}
-				
-				
-				
+	
 		}
 		
 
