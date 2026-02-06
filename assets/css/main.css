@@ -478,6 +478,14 @@ input, select, textarea {
 			margin-left: 100%;
 		}
 
+		.row > .col-13 {
+			width: 12.5%;
+		}
+
+		.row > .off-13 {
+			margin-left: 12.5%;
+		}		
+
 		.row.gtr-0 {
 			margin-top: 0;
 			margin-left: 0rem;
@@ -720,6 +728,14 @@ input, select, textarea {
 
 				.row > .off-12-xlarge {
 					margin-left: 100%;
+				}
+
+				.row > .col-13-xlarge {
+					width: 12.5%;
+				}
+
+				.row > .off-13-xlarge {
+					margin-left: 12.5%;
 				}
 
 				.row.gtr-0 {
@@ -967,6 +983,14 @@ input, select, textarea {
 					margin-left: 100%;
 				}
 
+				.row > .col-13-large {
+					width: 12.5%;
+				}
+
+				.row > .off-13-large {
+					margin-left: 12.5%;
+				}
+
 				.row.gtr-0 {
 					margin-top: 0;
 					margin-left: 0rem;
@@ -1210,6 +1234,14 @@ input, select, textarea {
 
 				.row > .off-12-medium {
 					margin-left: 100%;
+				}
+
+				.row > .col-13-medium {
+					width: 12.5%;
+				}
+
+				.row > .off-13-medium {
+					margin-left: 12.5%;
 				}
 
 				.row.gtr-0 {
@@ -1457,6 +1489,14 @@ input, select, textarea {
 					margin-left: 100%;
 				}
 
+				.row > .col-13-small {
+					width: 12.5%;
+				}
+
+				.row > .off-13-small {
+					margin-left: 12.5%;
+				}
+
 				.row.gtr-0 {
 					margin-top: 0;
 					margin-left: 0rem;
@@ -1702,6 +1742,14 @@ input, select, textarea {
 					margin-left: 100%;
 				}
 
+				.row > .col-13-xsmall {
+					width: 12.5%;
+				}
+
+				.row > .off-13-xsmall {
+					margin-left: 12.5%;
+				}
+
 				.row.gtr-0 {
 					margin-top: 0;
 					margin-left: 0rem;
@@ -1945,6 +1993,14 @@ input, select, textarea {
 
 				.row > .off-12-xxsmall {
 					margin-left: 100%;
+				}
+
+				.row > .col-13-xxsmall {
+					width: 12.5%;
+				}
+
+				.row > .off-13-xxsmall {
+					margin-left: 12.5%;
 				}
 
 				.row.gtr-0 {
