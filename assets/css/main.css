@@ -2834,10 +2834,11 @@ input, select, textarea {
 
 			.image.main {
 				border-radius: 12px;
-				box-shadow: 5px 5px 6px rgba(0,0,0,0.6);				
+				box-shadow: 5px 5px 6px rgba(0,0,0,0.6);
 				overflow: hidden;
-				display: inline-block;				
-				transition: transform 0.2s ease, box-shadow 0.2s ease;				
+				display: block;
+				margin: 0 auto;
+				transition: transform 0.2s ease, box-shadow 0.2s ease;
 			}
 
 			.image.main img {
