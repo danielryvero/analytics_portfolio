@@ -487,11 +487,11 @@ input, select, textarea {
 		}		
 
 		.row > .col-14 {
-			width: 11%;
+			width: 10%;
 		}
 
 		.row > .off-14 {
-			margin-left: 11%;
+			margin-left: 10%;
 		}			
 
 		.row.gtr-0 {
@@ -746,12 +746,12 @@ input, select, textarea {
 					margin-left: 12.5%;
 				}
 
-								.row > .col-14-xlarge {
-					width: 11%;
+				.row > .col-14-xlarge {
+					width: 10%;
 				}
 
-				.row > .off-13-xlarge {
-					margin-left: 11%;
+				.row > .off-14-xlarge {
+					margin-left: 10%;
 				}
 
 				.row.gtr-0 {
@@ -1008,11 +1008,11 @@ input, select, textarea {
 				}
 
 				.row > .col-14-large {
-					width: 11%;
+					width: 10%;
 				}
 
 				.row > .off-14-large {
-					margin-left: 11%;
+					margin-left: 10%;
 				}				
 
 				.row.gtr-0 {
@@ -1269,11 +1269,11 @@ input, select, textarea {
 				}
 
 				.row > .col-14-medium {
-					width: 11%;
+					width: 10%;
 				}
 
-				.row > .off-11-medium {
-					margin-left: 11%;
+				.row > .off-14-medium {
+					margin-left: 10%;
 				}				
 
 				.row.gtr-0 {
@@ -1530,11 +1530,11 @@ input, select, textarea {
 				}
 
 				.row > .col-14-small {
-					width: 11%;
+					width: 10%;
 				}
 
-				.row > .off-11-small {
-					margin-left: 11%;
+				.row > .off-14-small {
+					margin-left: 10%;
 				}				
 
 				.row.gtr-0 {
@@ -1791,11 +1791,11 @@ input, select, textarea {
 				}
 
 				.row > .col-14-xsmall {
-					width: 11%;
+					width: 10%;
 				}
 
 				.row > .off-14-xsmall {
-					margin-left: 11%;
+					margin-left: 10%;
 				}				
 
 				.row.gtr-0 {
@@ -2052,11 +2052,11 @@ input, select, textarea {
 				}
 
 				.row > .col-14-xxsmall {
-					width: 11%;
+					width: 10%;
 				}
 
-				.row > .off-11-xxsmall {
-					margin-left: 11%;
+				.row > .off-14-xxsmall {
+					margin-left: 10%;
 				}				
 
 				.row.gtr-0 {
